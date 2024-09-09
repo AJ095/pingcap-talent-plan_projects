@@ -1,0 +1,15 @@
+[package]
+name = "kvs"
+version = "0.1.0"
+authors = ["Ayub Jama <ayubsuleiman01@gmail.com>"]
+description = "A key-value store"
+edition = "2018"
+
+#Dev-dependencies are not used when compiling a package for building, but are used for compiling tests,	
+[dev-dependencies]
+assert_cmd = "0.11.0"
+predicates = "1.0.0"
+
+[dependencies]
+clap = {version="4.5.17", features = ["derive"]}
+
